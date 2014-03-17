@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Let's Hack DC</title>
+    <meta name="author" content="Matt Makai">
+    <meta name="description" content="">
+    <meta name="language" content="english">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="theme/css/lhdc.css">
+    <style>
+        #front-page-bg-img {
+            background-image: url('theme/img/washington-monument.jpg'); 
+            background-size: 100%;
+        }   
+        
+        @media (max-width: 1150px) {
+            #front-page-bg-img {
+                background-image: url('theme/img/washington-monument-medium.jpg'); 
+                background-size: 100%;
+            }
+        } 
+        
+        @media (max-width: 800px) {
+            #front-page-bg-img {
+                background-image: url('theme/img/vertical-monument.jpg'); 
+                background-size: 100%;
+            }
+        } 
+    </style>
+     
+    </head>
+<body>
+        <a href="https://github.com/makaimc/letshackdc.github.com" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0; z-index: 1000;" src="http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub" />
+    </a>
+        <div id="front-page-bg-img" data-stellar-background-ratio="0.2">
+
+        <div class="front-page-text">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="front-page text-line-1">
+                            Let's hack the Washington, D.C. tech community. 
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="front-page-text">
+            <div class="container" style="margin-top: 400px;">
+                <div class="row">
+                    <div class="col-md-10">
+                        <h2 class="front-page text-line-2">
+                            We endorse the 
+                            <a href="#">events</a>, 
+                            <a href="#">companies</a>, and 
+                            <a href="#">people</a> who exceed 
+                            <a href="#">transparent standards</a> that represent
+                            the best of software development in the U.S. capital.
+                        </h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <div class="white-out">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+            </div>
+          </div>
+        </div>
+    </div>
+    <div id="black-out-footer">
+        <div class="container">
+            <div class="footer pull-right">
+                <p><a href="http://www.mattmakai.com/">Matt Makai</a> 2014</p>
+            </div>
+        </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
+    <script src="theme/js/bootstrap.min.js"></script>
+        <script src="theme/js/stellar.js" type="text/javascript"></script>
+    <script src="theme/js/jquery.backstretch.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+                var ua = navigator.userAgent,
+      isMobileWebkit = /WebKit/.test(ua) && /Mobile/.test(ua);
+    var screenWidth = screen.width;
+    /* only do parallax on non-mobile */
+    if(!isMobileWebkit) {
+        $.stellar();
+    } else {
+        $('#front-page-bg-img').backstretch(
+            'theme/img/washington-monument.jpg', {centeredY: false});
+    }
+        });
+    </script>
+</body>
+</html>
