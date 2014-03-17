@@ -6122,3 +6122,10 @@ h2.text-line-2 {
         background-size: 100%;
     }   
 }           
+
+@media (max-width: 700px) and (min-height: 900px) {
+    #front-page-bg-img {
+        background-image: url('theme/img/vertical-monument-phone.jpg');
+        background-size: 100%;
+    }   
+}           
