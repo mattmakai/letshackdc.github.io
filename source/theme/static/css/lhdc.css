@@ -6103,7 +6103,7 @@ h2.text-line-2 {
     padding: 40px 0 40px 0;
 }
 #front-page-bg-img {
-    background-image: url('theme/img/washington-monument.jpg');
+    background-image: url('/theme/img/washington-monument.jpg');
     background-size: 100%;
     min-height: 600px;
     padding-top: 180px;
@@ -6111,21 +6111,23 @@ h2.text-line-2 {
         
 @media (max-width: 1150px) {
     #front-page-bg-img {
-        background-image: url('theme/img/washington-monument-medium.jpg');
+        background-image: url('/theme/img/washington-monument-medium.jpg');
         background-size: 100%;
     }       
 }       
-    
-@media (max-width: 800px) {
+
+@media (max-width: 800px) and (min-height: 700px) {
     #front-page-bg-img {
-        background-image: url('theme/img/vertical-monument.jpg');
+        background-image: url('/theme/img/vertical-monument.jpg');
         background-size: 100%;
     }   
 }           
 
-@media (max-width: 700px) and (min-height: 900px) {
+
+@media (max-width: 700px) and (min-height: 800px) {
     #front-page-bg-img {
-        background-image: url('theme/img/vertical-monument-phone.jpg');
+        background-image: url('/theme/img/monument-phone.jpg');
         background-size: 100%;
     }   
-}           
+} 
+    
