@@ -63,7 +63,12 @@
     if(!isMobileWebkit) {
         $.stellar();
     } else {
-        $('#front-page-bg-img').backstretch(
-            'theme/img/washington-monument.jpg', {centeredY: false});
+        if(screenWidth > 800) {
+            $('#front-page-bg-img').backstretch(
+                'theme/img/washington-monument.jpg', {centeredY: false});
+        } else {
+            $('#front-page-bg-img').backstretch(
+                'theme/img/monument-phone.jpg', {centeredY: false});
+        }
     }
 {% endblock %}
