@@ -6116,7 +6116,7 @@ h2.text-line-2 {
     }       
 }       
 
-@media (max-width: 800px) and (min-height: 700px) {
+@media (max-width: 800px) {
     #front-page-bg-img {
         background-image: url('/theme/img/vertical-monument.jpg');
         background-size: 100%;
@@ -6124,10 +6124,9 @@ h2.text-line-2 {
 }           
 
 
-@media (max-width: 700px) and (min-height: 800px) {
+@media (max-width: 700px) and (min-height: 600px) {
     #front-page-bg-img {
         background-image: url('/theme/img/monument-phone.jpg');
         background-size: 100%;
     }   
 } 
-    
