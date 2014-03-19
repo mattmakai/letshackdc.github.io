@@ -1,4 +1,4 @@
-title: About Let's Hack DC
+title: About Let's Hack D.C.
 category: about
 slug: about
 
@@ -16,11 +16,13 @@ interfered with by recruiters,
 or contracting firms looking to make a quick buck off developers who are 
 diligently working to improve their craft.
 
+
 ## Keep it positive
 Let's avoid publicly disparaging particular events, organizations and people
 that do not meet the [inclusion criteria](/criteria.html) for this site. 
 D.C. software developers should focus on improving our craft and community. 
 Ignore the haters, if you will.
+
 
 ## Contributions
 Do you know an event, company, or person that should be added to Let's Hack DC?
