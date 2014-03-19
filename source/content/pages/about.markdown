@@ -18,9 +18,9 @@ diligently working to improve their craft.
 
 ## Keep it positive
 Let's avoid publicly disparaging particular events, organizations and people
-that do not meet the [transparent criteria](/criteria.html) for
-inclusion on this site. D.C. software developers should focus on improving our 
-craft and community. Ignore the haters, if you will.
+that do not meet the [criteria](/criteria.html) for inclusion on this site. 
+D.C. software developers should focus on improving our craft and community. 
+Ignore the haters, if you will.
 
 ## Contributions
 Do you know an event, company, or person that should be added to Let's Hack DC?
