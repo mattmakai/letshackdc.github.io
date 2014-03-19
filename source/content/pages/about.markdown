@@ -7,8 +7,8 @@ There's recently been a surge of interest about startups throughout the
 District. However, startups != software development. We care about 
 making software development better.
 
-Great software development emerges from engaged hackers coding with 
-freedom to creatively solve problems using technology. Engaged hackers 
+Great software development emerges from hackers coding with the freedom to 
+creatively solve problems using technology. Engaged hackers 
 attend events with their peers that get them excited about new programming 
 techniques, languages and frameworks. These events should not be 
 interfered with by recruiters, 
