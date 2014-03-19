@@ -18,7 +18,7 @@ diligently working to improve their craft.
 
 ## Keep it positive
 Let's avoid publicly disparaging particular events, organizations and people
-that do not meet the [criteria](/criteria.html) for inclusion on this site. 
+that do not meet the [inclusion criteria](/criteria.html) for this site. 
 D.C. software developers should focus on improving our craft and community. 
 Ignore the haters, if you will.
 
