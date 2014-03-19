@@ -28,6 +28,6 @@ Is something or someone listed that no longer meets the criteria to be on this
 site? Contact us or send a 
 [pull request](https://github.com/makaimc/letshackdc.github.io/pulls)
 on our GitHub repository. Check out the 
-[contributing information](https://github.com/makaimc/letshackdc.github.io/blob/gh-pages/CONTRIBUTING.markdown)
+[contributing information](https://github.com/makaimc/letshackdc.github.io/blob/gh-pages/CONTRIBUTING.md)
 Markdown file for more information.
 
