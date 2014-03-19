@@ -1,20 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="row">
-    <div class="col-md-8">
-      {{ page.content }}
-      {% for p in pages %}
-        {% if next_up %}
-            <br/>
-            Next read the 
-            <a href="/{{ p.slug }}.html">{{ p.title|lower }}</a> section.
-            {% set next_up = False %}    
-        {% endif %}
-        {% if p.slug == page.slug %}
-            {% set next_up = True %}
-        {% endif %}
-      {% endfor %}
-    </div>
-</div>
+    {% if page.category == 'about' %}
+        {% include 'about.html' %}
+    {% elif page.category == 'criteria' %}
+        {% include 'criteria.html' %}
+    {% endif %}
 {% endblock %}
