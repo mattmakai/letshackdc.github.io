@@ -17,7 +17,7 @@ or contracting firms looking to make a quick buck off developers who are
 diligently working to improve their craft.
 
 ## Keep it positive
-Let's remember to avoid publicly disparaging events, organizations and people
+Let's avoid publicly disparaging particular events, organizations and people
 that do not meet the [transparent criteria](/criteria.html) for
 inclusion on this site. D.C. software developers should focus on improving our 
 craft and community. Ignore the haters, if you will.
