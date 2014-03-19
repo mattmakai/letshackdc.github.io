@@ -1,4 +1,5 @@
 run:
+	rm -rf output/
 	mkdir ./output
 	cp -R static-html/* output/
 	pelican -t theme -s settings.py content
