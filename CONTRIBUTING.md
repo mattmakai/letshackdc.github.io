@@ -43,7 +43,7 @@ $ cd lhdc
 Note: make changes to the source/content/pages/\*.markdown files then execute a
 *make run* command from the source/ directory.
 
-6. Commit your changes and push your branch to GitHub
+4. Commit your changes and push your branch to GitHub
 
 ```
 $ git add .
@@ -51,5 +51,5 @@ $ git commit -m "Your description of the changes."
 $ git push origin gh-pages
 ```
 
-7. Submit a pull request through the GitHub website.
+5. Submit a pull request through the GitHub website.
 
