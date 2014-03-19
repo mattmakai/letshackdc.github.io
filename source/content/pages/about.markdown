@@ -2,6 +2,7 @@ title: About Let's Hack DC
 category: about
 slug: about
 
+## Why does this exist?
 There's recently been a surge of interest about startups throughout the 
 District. However, startups != software development. We care about 
 making software development better.
@@ -15,15 +16,18 @@ interfered with by recruiters,
 or contracting firms looking to make a quick buck off developers who are 
 diligently working to improve their craft.
 
+## Keep it positive
 Let's remember to avoid publicly disparaging event, organizations and people
 that do not meet the [transparent criteria](/criteria.html) for
 inclusion on this site. D.C. software developers should focus on improving our 
 craft and community. Ignore the haters, if you will.
 
+## Contributions
 Do you know an event, company, or person that should be added to Let's Hack DC?
 Is something or someone listed that no longer meets the criteria to be on this
 site? Contact us or send a 
 [pull request](https://github.com/makaimc/letshackdc.github.io/pulls)
-on our GitHub repository.
-
+on our GitHub repository. Check out the contributing
+[contributing information](https://github.com/makaimc/letshackdc.github.io/blob/gh-pages/CONTRIBUTING.markdown)
+Markdown file for more information.
 
