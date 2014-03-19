@@ -27,29 +27,23 @@ Ready to contribute? Here's how to set up
 
 2. Clone your fork locally.
 
-```
-$ git clone git@github.com:your_name_here/letshackdc.github.io.git lhdc
-```
+        $ git clone git@github.com:your_name_here/letshackdc.github.io.git lhdc
 
 3. Install your local copy into a Python virtualenv and set up your fork for 
    local development
 
-```
-$ virtualenv --no-site-packages venvs/lhdc
-$ source venvs/lhdc/bin/activate
-$ cd lhdc
-```
+        $ virtualenv --no-site-packages venvs/lhdc
+        $ source venvs/lhdc/bin/activate
+        $ cd lhdc
 
 Note: make changes to the source/content/pages/\*.markdown files then execute a
 *make run* command from the source/ directory.
 
 4. Commit your changes and push your branch to GitHub
 
-```
-$ git add .
-$ git commit -m "Your description of the changes."
-$ git push origin gh-pages
-```
+        $ git add .
+        $ git commit -m "Your description of the changes."
+        $ git push origin gh-pages
 
 5. Submit a pull request through the GitHub website.
 
