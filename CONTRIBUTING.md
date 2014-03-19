@@ -10,16 +10,16 @@ Create pull requests on the
 
 ## Submit Feedback
 The best way to send feedback is to file an issue is on 
-[repository\'s issues page](https://github.com/makaimc/letshackdc.github.com/issues).
+[repository's issues page](https://github.com/makaimc/letshackdc.github.com/issues).
 
 
 ## Get Started!
-If you\'re not familiar with [Pelican](http://docs.getpelican.com/), 
+If you're not familiar with [Pelican](http://docs.getpelican.com/), 
 check out the blog post on 
 [Getting Started with Pelican and GitHub Pages](http://www.mattmakai.com/introduction-to-pelican.html).
 
-Ready to contribute? Here\'s how to set up 
-[Let\'s Hack DC](http://www.letshackdc.com/) for local development.
+Ready to contribute? Here's how to set up 
+[Let's Hack DC](http://www.letshackdc.com/) for local development.
 
 1. Fork the 
    [letshackdc.github.com](https://github.com/makaimc/letshackdc.github.io) 
