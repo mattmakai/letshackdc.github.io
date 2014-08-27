@@ -2,9 +2,7 @@ title: Inclusion Criteria
 category: criteria
 slug: criteria
 
-# Criteria
-
-## Companies
+# Companies
 
 ### Compensation
 * Equity, options or profit sharing for all software developers as part of 
@@ -17,10 +15,13 @@ slug: criteria
 * Automate software testing through unit testing and integration testing.
 
 
-## Meetups
+# Meetups
+
+### Attendees
 * Audience primarily composed of practitioners with a smaller set of 
   attendees who are learning the topic.
 
+### Recruiters
 * Recruiters' pitches are non-intrusive to attendees. 
 
 * Recruiters' pitches are limited to a brief segment before or after 
