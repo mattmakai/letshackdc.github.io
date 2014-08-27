@@ -1,7 +1,9 @@
 {% extends "base.html" %}
 
 {% block content %}
-    {% if page.category == 'about' %}
+    {% if page.category == 'company' %}
+        {% include 'company.html' %}
+    {% elif page.category == 'about' %}
         {% include 'about.html' %}
     {% elif page.category == 'criteria' %}
         {% include 'criteria.html' %}
