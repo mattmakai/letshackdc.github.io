@@ -9,7 +9,7 @@ GITHUB_URL = 'https://github.com/makaimc/letshackdc.github.com'
 DISQUS_SITENAME = 'makaimc'
 PDF_GENERATOR = False
 
-DIRECT_TEMPLATES = ('index', 'sitemap', )
+DIRECT_TEMPLATES = ('index', 'sitemap', 'companies')
 
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
