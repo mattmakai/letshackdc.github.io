@@ -15,6 +15,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.letshackdc.com/inbound-crowd.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.letshackdc.com/trackmaven.html</loc>
     <priority>1.0</priority>
   </url>
