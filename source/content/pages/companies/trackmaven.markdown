@@ -13,14 +13,16 @@ Just south of Dupont Circle. Accessible by red, orange and blue metro lines.
 
 
 ## Software stack
+* AngularJS
 * Python, Django, django-rest-framework
 * Amazon Web Services
 
 
-## Development Hardware
-Unknown.
-
 ## Tech talks delivered by team
+* Cameron Maske talked about Scaling Celery with Django at
+  [Django District](http://www.meetup.com/django-district/events/214227472/)
+  on October 28, 2014.
+
 * Matt Camilli discussed "Amazon Web Services Deployments at TrackMaven" at 
   [DC Continuous Delivery](http://www.meetup.com/DC-continuous-delivery/events/191237812/) 
   on July 16, 2014 in Arlington, Virginia.
