@@ -3,7 +3,7 @@
 {% block css_head %}
     <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
     <style type="text/css">
-        #mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+        #mc_embed_signup{background:#fff; padding-left: 0px; font:14px Helvetica,Arial,sans-serif; }
         /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
            We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
     </style>
@@ -14,23 +14,38 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="page-title">The <a href="/">Let's Hack D.C.</a> 
-                                           Newsletter</h1>
+                    <h2 class="page-title"><a href="/">Let's Hack D.C.</a></h2>
                 </div>
             </div>
         </div>
     </div>
     <div class="container">
         <div class="row page-content">
-            <div class="col-md-8">
-                <h2>
+            <div class="col-md-10">
+                <h1>Newsletter</h1>
+                <p>The Let's Hack D.C. email newsletter is a bimonthly
+                   round up of software developer-focused meetups and events. 
+                </p>
+                <p>
+                   Every event included in the newsletter is organized and
+                   run by software developers for software developers
+                   instead of recruiters, entrepreneurs or other 
+                   business types.
+                </p>
+                <p>
+                    No spam or selling your email address. Just two emails
+                    a month chock full of the best software developer-focused
+                    meetups in Washington, D.C. that's curated by 
+                    <a href="http://www.mattmakai.com/">Matt Makai</a>.
+                    Unsubscribe at any time.
+                </p>
                 <div id="mc_embed_signup">
-                    <form action="//mattmakai.us2.list-manage.com/subscribe/post?u=b7e774f0c4f05dcebbfee183d&amp;id=fea29ce1c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                    <form action="//mattmakai.us2.list-manage.com/subscribe/post?u=b7e774f0c4f05dcebbfee183d&amp;id=fea29ce1c3" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="padding-left: 2px;">
                         <div id="mc_embed_signup_scroll">
                         <label for="mce-EMAIL">Subscribe to the Let's Hack D.C. email newsletter</label>
                         <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
                         <div style="position: absolute; left: -5000px;"><input type="text" name="b_b7e774f0c4f05dcebbfee183d_fea29ce1c3" tabindex="-1" value=""></div>
-                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button"></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="button" style="background: green;"></div>
                         </div>
                     </form>
                 </div>

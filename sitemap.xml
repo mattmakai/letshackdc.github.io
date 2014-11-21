@@ -15,6 +15,10 @@
     <priority>1.0</priority>
   </url>
   <url>
+    <loc>http://www.letshackdc.com/dc-continuous-delivery.html</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
     <loc>http://www.letshackdc.com/inboundcrowd.html</loc>
     <priority>1.0</priority>
   </url>

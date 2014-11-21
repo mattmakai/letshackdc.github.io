@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-8">
-                    <h1 class="page-title">Events</h1>
+                    <h2 class="page-title"><a href="/">Let's Hack D.C.</a></h2>
                 </div>
             </div>
         </div>
@@ -13,12 +13,12 @@
     <div class="container">
         <div class="row page-content">
             <div class="col-md-8">
+                <h1>Events</h1>
                 {% for p in pages|sort(attribute='title') %}
                     {% if p.category == 'event' %}
-                        <a href="/{{ p.slug }}.html">{{ p.title }}</a>
+                        <h3><a href="/{{ p.slug }}.html">{{ p.title }}</a></h3>
                     {% endif %}
                 {% endfor %}
-                Events coming soon.
             </div>
         </div>
     </div>
