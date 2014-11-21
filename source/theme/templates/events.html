@@ -1,15 +1,7 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="front-page-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h2 class="page-title"><a href="/">Let's Hack D.C.</a></h2>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% include "page_header.html" %}
     <div class="container">
         <div class="row page-content">
             <div class="col-md-8">
@@ -22,5 +14,4 @@
             </div>
         </div>
     </div>
-        
 {% endblock %}

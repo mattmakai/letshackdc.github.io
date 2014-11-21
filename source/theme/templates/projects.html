@@ -1,18 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <div class="front-page-text">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8">
-                    <h1 class="page-title">Projects</h1>
-                </div>
-            </div>
-        </div>
-    </div>
+    {% include "page_header.html" %}
     <div class="container">
         <div class="row page-content">
             <div class="col-md-8">
+                <h1>Projects</h1>
                 {% for p in pages|sort(attribute='title') %}
                     {% if p.category == 'project' %}
                         <a href="/{{ p.slug }}.html">{{ p.title }}</a>
@@ -22,5 +15,4 @@
             </div>
         </div>
     </div>
-        
 {% endblock %}
