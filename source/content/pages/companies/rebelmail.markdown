@@ -24,6 +24,7 @@ $2 million seed round in January 2014
 
 ## Links
 * [Angel.co](https://angel.co/rebelmail)
+* [GitHub](https://github.com/rebelmail)
 
 
 ## News
