@@ -14,6 +14,6 @@ The location varies between the District, Arlington and Ashburn based on the
 month.
 
 
-## Audience
+## Audience and Content
 DC Continuous Delivery's audience is primarily composed of folks developing
 software and operating production applications.
